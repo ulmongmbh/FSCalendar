@@ -362,8 +362,8 @@ typedef NS_ENUM(NSUInteger, FSCalendarOrientation) {
             
         }
 
-        _topBorder.frame = CGRectMake(0, -1, self.fs_width, 1);
-        _bottomBorder.frame = CGRectMake(0, self.fs_height, self.fs_width, 1);
+        _topBorder.frame = CGRectMake(0, -1, self.fs_width, 0);
+        _bottomBorder.frame = CGRectMake(0, self.fs_height, self.fs_width, 0);
         _scopeHandle.fs_bottom = _bottomBorder.fs_top;
         
     }
